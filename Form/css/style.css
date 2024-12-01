@@ -1,0 +1,59 @@
+body{
+    background-color:powderblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    padding :90px;
+    box-shadow: 10px 15px 5px gray;
+}
+.brand-title{
+    color:rgb(47, 128, 204);
+
+}
+.brand-logo{
+    background: url(../images/3.jpg);
+    height: 137px;
+    width: 134px;
+    border-radius: 50%;
+    margin: auto;
+}
+.inputs{
+    text-align: left;
+}
+input,button,label{
+    display: block;
+    width: 90%;
+    border: none;
+}
+label{
+    color:rgb(47, 128, 204);
+    margin-bottom:10px ;
+}
+input{
+    padding:10px;
+    border-radius: 50px;
+    height: 40px;
+    box-shadow: 10px 15px 5px rgb(192, 191, 191);
+    margin-bottom: 15px;
+
+
+}
+button{
+    background-color:rgb(47, 128, 204);
+
+    color:white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
